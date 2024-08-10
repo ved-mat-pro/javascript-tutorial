@@ -31,3 +31,29 @@ const myFunction = function(){
     console.log("hello world");   
 }
 myFunction();
+
+// -------------------------------------------------
+
+// Stack (primitive) -> get copy ->changes occur in copy
+// Head(Non - Primitive) -> get reference ->changes occur in original value
+
+let myYoutubeName = "masterpiece"
+
+let anothername = myYoutubeName
+anothername = "wellness wispers"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "vedant@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
