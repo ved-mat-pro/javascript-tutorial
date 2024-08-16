@@ -76,3 +76,42 @@ function calculateCartPrice2(val1 , val2 , ...num1){
 }
 
 console.log(calculateCartPrice2(200,400,500,1000 ,2000));
+
+
+
+// ---------------- passing object in function -----------------------
+
+const user = {
+    username: "vedant",
+    price: 199
+}
+
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+    
+}
+
+handleObject(user)
+
+    //or
+
+handleObject({
+    username: "vedmatpro" ,
+    price: 999
+})
+
+
+
+// ------------------- passing array in object -------------------
+
+const NewArray = [200 ,400 ,100 ,600]
+
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+
+console.log(returnSecondValue(NewArray));
+
+    //or
+
+console.log(returnSecondValue([200 ,300 ,400 ,500]));
