@@ -18,7 +18,7 @@ for (const key in myObject) {
 const programming = ["js" , "rb" , "py" , "java" , "cpp"]
 
 for (const key in programming) {
-        console.log(key);           // index of each element is coming in output       
+        console.log(key);           // index of each element iss coming in output       
 }
 for (const key in programming) {
         console.log(programming[key]);
