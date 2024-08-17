@@ -13,7 +13,7 @@ function printMe(item){     //reference of other function is given
     console.log(item);   
 }
 
-coding.forEach(printMe)     //just write printMe not printMe() as only reference is required , printing will be done by forEach loop
+coding.forEach(printMe)     //just write printMe not printMe() ass only reference is required , printing will be done by forEach loop
 
 
 coding.forEach( (item , index , arr) => {
